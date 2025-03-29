@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY PORTFOLIO and Forms</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Multimedia Storytelling Project: "Voices of the Community Garden"</li>
+        <li>Social Media Campaign: "Sustainable City Initiative Awareness"</li>
+        <li>Written Communication Portfolio: "Diverse Voices: A Collection of Feature Articles"</li>
+        <li>Audio/Video Production: "Short Documentary Series: Local Artists"</li>
+        <li>Communication Research/Analysis: "The Impact of Social Media on Political Discourse"</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Beautiful Landscape" width="500">
+    
+    <!-- Table of Contacts -->
+    <h2>Contacts Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Jefther Afuyo</td>
+            <td>123 Main St, City</td>
+            <td>+254796090806</td>
+            <td>afuyojefther@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Achieng</td>
+            <td>456 Oak St, Town</td>
+            <td>+25411234567</td>
+            <td>janeachieng@gmail.com.com</td>
+        </tr>
+        <tr>
+            <td>Bob Kilonzo</td>
+            <td>789 Pine St, Village</td>
+            <td>+254789098455</td>
+            <td>bobkilonzo@gmail.com.com</td>
+        </tr>
+        <tr>
+            <td>Alice Otieno</td>
+            <td>321 Maple St, Suburb</td>
+            <td>+254768978433</td>
+            <td>aliceotieno@gmail.com.com</td>
+        </tr>
+        <tr>
+            <td>Charlie White</td>
+            <td>654 Birch St, Metro</td>
+            <td>+9081726354</td>
+            <td>charliewhite@gmail.com.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Jefther Afuyo" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="afuyojefther@gmail.com" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="simeon" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="19.10.1999" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="Kenya" required>
+            <option value="">Select your country</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <option value="au">Australia</option>
+        </select>
+        <br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding"> <label for="coding">Coding</label>
+        <input type="checkbox" id="reading" name="interests" value="reading"> <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="interests" value="traveling"> <label for="traveling">Traveling</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
